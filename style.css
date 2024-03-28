@@ -1,0 +1,25 @@
+.animated-word {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.letter {
+  transition: 0.4s;
+  transform: translateY(0);
+  cursor: grab;
+  color: transparent;
+  background: linear-gradient(120deg, hsl(19, 90%, 52%), hsl(56, 100%, 50%));
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 5rem;
+}
+
+
+.letter:hover {
+  transform: translateY(-1rem);
+}
+div{
+  background-color: black;
+}
+
